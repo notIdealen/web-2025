@@ -6,8 +6,7 @@
   <title>Document</title>
 </head>
 <body>
-  <div>Test</div>
-  <div>Версия PHP: <?= print phpversion(); ?></div>
+  <div>Всем привеД!</div>
+  <div>Версия PHP: <?php print phpversion(); ?></div>
 </body>
 </html>
-
