@@ -1,0 +1,19 @@
+[Tue Feb 25 09:33:26.445009 2025] [core:warn] [pid 12528:tid 348] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Feb 25 09:33:26.460960 2025] [mpm_winnt:notice] [pid 12528:tid 348] AH00455: Apache/2.4.63 (Win64) PHP/8.4.4 configured -- resuming normal operations
+[Tue Feb 25 09:33:26.460960 2025] [mpm_winnt:notice] [pid 12528:tid 348] AH00456: Apache Lounge VS17 Server built: Feb  3 2025 10:10:51
+[Tue Feb 25 09:33:26.460960 2025] [core:notice] [pid 12528:tid 348] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Feb 25 09:33:26.465205 2025] [mpm_winnt:notice] [pid 12528:tid 348] AH00418: Parent: Created child process 6532
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 6532:tid 360] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 25 09:35:27.120341 2025] [mpm_winnt:notice] [pid 12528:tid 348] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Feb 25 09:35:29.139492 2025] [mpm_winnt:notice] [pid 6532:tid 360] AH00364: Child: All worker threads have exited.
+[Tue Feb 25 09:35:29.167230 2025] [mpm_winnt:notice] [pid 12528:tid 348] AH00430: Parent: Child process 6532 exited successfully.
+[Tue Feb 25 09:50:33.488752 2025] [mpm_winnt:notice] [pid 8276:tid 388] AH00455: Apache/2.4.63 (Win64) PHP/8.4.4 configured -- resuming normal operations
+[Tue Feb 25 09:50:33.488752 2025] [mpm_winnt:notice] [pid 8276:tid 388] AH00456: Apache Lounge VS17 Server built: Feb  3 2025 10:10:51
+[Tue Feb 25 09:50:33.488752 2025] [core:notice] [pid 8276:tid 388] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Feb 25 09:50:33.491954 2025] [mpm_winnt:notice] [pid 8276:tid 388] AH00418: Parent: Created child process 10004
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 10004:tid 352] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 25 09:52:59.512387 2025] [mpm_winnt:notice] [pid 8276:tid 388] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Feb 25 09:53:01.529405 2025] [mpm_winnt:notice] [pid 10004:tid 352] AH00364: Child: All worker threads have exited.
+[Tue Feb 25 09:53:01.553141 2025] [mpm_winnt:notice] [pid 8276:tid 388] AH00430: Parent: Child process 10004 exited successfully.
