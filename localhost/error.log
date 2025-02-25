@@ -17,3 +17,19 @@ pm_winnt:notice] [pid 10004:tid 352] AH00354: Child: Starting 64 worker threads.
 [Tue Feb 25 09:52:59.512387 2025] [mpm_winnt:notice] [pid 8276:tid 388] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Tue Feb 25 09:53:01.529405 2025] [mpm_winnt:notice] [pid 10004:tid 352] AH00364: Child: All worker threads have exited.
 [Tue Feb 25 09:53:01.553141 2025] [mpm_winnt:notice] [pid 8276:tid 388] AH00430: Parent: Child process 10004 exited successfully.
+[Tue Feb 25 10:00:41.670657 2025] [mpm_winnt:notice] [pid 4724:tid 408] AH00455: Apache/2.4.63 (Win64) PHP/8.4.4 configured -- resuming normal operations
+[Tue Feb 25 10:00:41.670657 2025] [mpm_winnt:notice] [pid 4724:tid 408] AH00456: Apache Lounge VS17 Server built: Feb  3 2025 10:10:51
+[Tue Feb 25 10:00:41.670657 2025] [core:notice] [pid 4724:tid 408] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Feb 25 10:00:41.673948 2025] [mpm_winnt:notice] [pid 4724:tid 408] AH00418: Parent: Created child process 15900
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 15900:tid 360] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 25 10:02:05.196655 2025] [cgi:error] [pid 15900:tid 1172] [client ::1:49790] malformed header from script '3-1-1.cgi': Bad header: HTTP/2 200OK
+[Tue Feb 25 10:04:56.270443 2025] [cgi:error] [pid 15900:tid 1176] [client ::1:50082] malformed header from script '3-1-1.cgi': Bad header: HTTP/2 200 OK
+[Tue Feb 25 10:05:34.001042 2025] [cgi:error] [pid 15900:tid 1172] [client ::1:50083] malformed header from script '3-1-1.cgi': Bad header: HTTP/2.0 200 OK
+[Tue Feb 25 10:49:18.238247 2025] [mpm_winnt:notice] [pid 4724:tid 408] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Feb 25 10:49:20.268027 2025] [mpm_winnt:notice] [pid 15900:tid 360] AH00364: Child: All worker threads have exited.
+[Tue Feb 25 10:49:20.310688 2025] [mpm_winnt:notice] [pid 4724:tid 408] AH00430: Parent: Child process 15900 exited successfully.
+[Wed Feb 26 00:02:09.205536 2025] [mpm_winnt:notice] [pid 7348:tid 360] AH00455: Apache/2.4.63 (Win64) PHP/8.4.4 configured -- resuming normal operations
+[Wed Feb 26 00:02:09.206548 2025] [mpm_winnt:notice] [pid 7348:tid 360] AH00456: Apache Lounge VS17 Server built: Feb  3 2025 10:10:51
+[Wed Feb 26 00:02:09.206548 2025] [core:notice] [pid 7348:tid 360] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Feb 26 00:02:09.209715 2025] [mpm_winnt:notice] [pid 7348:tid 360] AH00418: Parent: Created child process 3848
