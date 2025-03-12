@@ -1,0 +1,65 @@
+@font-face {
+	font-family: 'GolosReg'; 
+	src: url(../fonts/Golos-UI_Regular.ttf); 
+}
+
+* {
+    background-color: white;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'GolosReg';
+}
+
+.main-container {
+    margin: 0 auto;
+    position: relative;/*нужен для вложенных контейнеров иначе они съезжают*/
+    /*top: 150px;/*del*/
+    background-color: deeppink;/*del*/
+    /*width: 600px;/*del*/
+    /*height: 500px;/*del*/
+    height: 100vh;
+
+    width: 100%;
+    /* min-height: 100vh; */
+}
+
+.nav-container {
+    display: inline-block;
+    position: fixed;/* top: 0; bottom: 0; left: 0; right: 0;*/
+    background-color: cornflowerblue;
+    width: 72px;
+    border-color: rgba(34, 34, 34, 50%);/*50% поменять на 5%*/
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    min-height: 100%;
+}
+
+/* .main-content-container {
+    display: inline-block;
+    background-color: goldenrod;
+    width: 60%;
+    height: inherit;
+} */
+    /*
+    position: absolute;
+    width: 400px;
+    height: 100%;
+}*/
+
+.content-feed-container {
+    display: block;
+    margin: 0px auto;
+    padding: 73px 0px 0px;
+    background-color: darkolivegreen;
+    width: 474px;
+    height: 500px;
+}
+/*
+.content-container {
+    background-color: rgba(34, 34, 34, 50%);
+    position: relative;
+    height: 700px;
+    width: 100%;
+    border: 5px solid black;
+}
+*/
