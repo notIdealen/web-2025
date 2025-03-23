@@ -7,8 +7,8 @@
   <title>Home work #6.1</title>
 </head>
 <body>
-  <form action="">
-    <input type="text" name="date" method="GET">
+  <form>
+    <input type="text" name="date">
     <input type="submit">
   </form>
 
