@@ -18,7 +18,7 @@ $day = "";
 $month = "";
 $dot = 0;
 $key = 0;
-if (!empty($_GET['date'])) {
+if (!$_GET['date']) {
     $date = $_GET['date'];
     while (isset($date[$i])) {
         if ($date[$i] === '.') {

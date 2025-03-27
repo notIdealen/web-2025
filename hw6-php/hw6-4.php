@@ -16,15 +16,14 @@
 $sum1 = 0;
 $sum2 = 0;
 if (!empty($_GET)) {
-    $minT = $_GET['sNum'];
+    $minT = (int)$_GET['sNum'];
     $maxT = (int)$_GET['eNum'];
-    $minT = (int)$minT;
     while ($minT <= $maxT) {
         if ($minT < 1000) {
             echo "No lucky tickets";
             break;
         } elseif ($minT < 10000) {
-            $minT = '0' . '0' . (string)$minT;
+            $minT = '00' . (string)$minT;
         } elseif ($minT < 100000) {
             $minT = '0' . (string)$minT;
         } else {
