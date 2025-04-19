@@ -1,0 +1,34 @@
+[
+    {
+        "user_id" : 1,
+        "name" : "Ваня",
+        "last_name" : "Денисов",
+        "nickName" : null,
+        "ava" : "./static/v2/images/users/Vanya_Denisov/post_5.jpg",
+        "quote" : "Привет! Я системный аналитик в ACME :) Тут моя жизнь только для самых классных!",
+        "posts" : [1740642352, 1740642452],
+        "images" : [
+                        "./static/v2/images/users/Vanya_Denisov/post_1.jpg",
+                        "./static/v2/images/users/Vanya_Denisov/post_2.jpg",
+                        "./static/v2/images/users/Vanya_Denisov/post_3.jpg",
+                        "./static/v2/images/users/Vanya_Denisov/post_4.jpg",
+                        "./static/v2/images/users/Vanya_Denisov/post_5.jpg",
+                        "./static/v2/images/users/Vanya_Denisov/post_6.jpg",
+                        "./static/v2/images/users/Vanya_Denisov/post_7.jpg",
+                        "./static/v2/images/users/Vanya_Denisov/post_8.jpg",
+                        "./static/v2/images/users/Vanya_Denisov/post_9.jpg",
+                        "./static/v2/images/users/Vanya_Denisov/post_10.jpg"
+                    ]
+    },
+    {
+        "user_id" : 2,
+        "name" : "Лиза",
+        "last_name" : "Дёмина",
+        "nickName" : null,
+        "ava" : null,
+        "quote" : null,
+        "posts" : [],
+        "images" : []
+    }
+    
+]

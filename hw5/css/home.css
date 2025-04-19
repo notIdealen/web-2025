@@ -1,0 +1,81 @@
+.viewport-container {    
+    width: 100%;
+    min-height: 73px;
+}
+
+.content-feed {
+    margin: 0 auto;
+    width: 474px;
+}
+
+.contentmaker-container {
+    width: 100%;
+    height: 64px;
+    padding: 16px 0;
+}
+
+.ava-container {
+    display: inline-block;
+    background-color: rgb(74, 134, 232);
+    height: 100%;
+    width: 32px;
+    border-radius: 6px;
+}
+
+.ava {
+    height: 100%;
+}
+
+.nickname {
+    font: 700 14px/18px "GolosR", "comic sans ms";
+    color: #222222;
+    letter-spacing: -0.15px;
+}
+
+.edit-icon {
+    width: 24px;
+}
+
+.fotocontent-container {
+    height: 474px;
+    background-color: brown;
+}
+
+.foto-post {
+    height: 100%;
+}
+
+.reaction-container {
+    margin: 16px 0;
+    background-color: rgba(35, 35, 35, 0.05);
+    width: max-content;
+    border-radius: 8px;
+}
+
+.heart {
+    display: inline-block;
+    font: 400 16px/1 "GolosR", "comic sans ms";
+    padding: 6px 0 6px 12px;
+    background-color: transparent;
+}
+
+.text {
+    font: 400 15px/18px "GolosR", "comic sans ms";
+    color: #222222;
+    letter-spacing: -0.15px;
+
+}
+
+.like-value {
+    background-color: transparent;
+    padding: 6px 12px 6px 0;
+}
+
+.date-text {
+    margin: 8px 0 20px 0;
+    font: 400 14px/18px "GolosR", "comic sans ms";
+    color: rgba(35, 35, 35, 0.5);
+    letter-spacing: -0.15px;
+}
+
+

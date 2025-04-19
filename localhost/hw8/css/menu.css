@@ -1,0 +1,26 @@
+.nav-panel {
+    display: inline-block;
+    padding: 24px 0;
+    border-width: 0;
+    border-right: 1px rgba(35, 35, 35, 0.05) solid;
+}
+
+.nav-menu-cell {
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 40px;
+    height: 40px;
+    margin: 16px;
+}
+
+.home-icon {
+    background-image: url("../image/icon/home_icon.png");
+}
+
+.user-icon {
+    background-image: url("../image/icon/user_icon.png");
+}
+
+.add-icon {
+    background-image: url("../image/icon/add_icon.png");
+}

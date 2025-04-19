@@ -1,0 +1,78 @@
+@font-face {
+	font-family: "GolosR"; 
+	src: url("../fonts/golos-ui_regular.woff2") format("woff2");
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    background-color:#FFFFFF;
+}
+
+.container {
+    margin: 0 auto;
+    width: 972px;
+    padding: 24px 0 0 0;
+}
+
+.ava-container {
+    margin: 0 auto;
+    width: 123px;
+    height: 123px;
+    border-radius: 16px;
+    background-color: darkolivegreen;
+}
+
+.ava-image {
+    height: 100%;
+}
+
+.nickname {
+    text-align: center;
+    margin: 20px 0 10px 0;
+    font: 600 32px/32px "GolosR", "comic sans ms";
+    color: #222222;
+    letter-spacing: -0.25px;
+}
+
+.about {
+    font: 400 15px/18px "GolosR", "comic sans ms";
+    color: #222222;
+    letter-spacing: -0.15px;
+    margin: 0 auto;
+    max-width: 361px;
+    text-align: center;
+}
+
+.posts-value-container {
+    display: inline-block;
+    background-color: #F2F3F5;
+    margin: 12px 0 42px 0;
+    padding: 7px 10px;
+    border-radius: 6px;
+    min-width: auto;
+}
+
+.posts-icon {
+    background-color: #F2F3F5;
+}
+
+.posts-value-text {
+    font: 400 15px/18px "GolosR", "comic sans ms";
+    color: #222222;
+    letter-spacing: -0.15px;
+    background-color: #F2F3F5;
+}
+.images-container {
+    width: 972px;
+    margin: auto;
+}
+
+.image-container {
+    display: inline-block;
+    width: 33.05%;
+}
+
+.image {
+    width: 100%;
+}

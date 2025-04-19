@@ -1,0 +1,62 @@
+@font-face {
+	font-family: "GolosR"; 
+	src: url("../fonts/golos-ui_regular.woff2") format("woff2");
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+	font-family: 'GolosR';
+}
+
+.title {
+    font: 700 140px/180px "GolosR", "comic sans ms";
+    color: #222222;
+    letter-spacing: -1.5px;
+}
+
+.image {
+    max-width: 15%;
+}
+
+.form {
+    max-width: 343px;
+}
+
+.label {
+    display: block;
+    font: 400 15px/18px "GolosR", "comic sans ms";
+    letter-spacing: -0.15px;
+    color: #222222;
+    margin-bottom: 5px;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    font: 400 15px/18px "GolosR", "comic sans ms";
+    padding: 13px 12px;
+    outline: none;
+    border-width: 0px;
+    border-radius: 10px;
+    background-color: #F2F3F5;
+}
+
+.input-info {
+    display: block;
+    font: 400 13px/16px "GolosR", "comic sans ms";
+    margin: 5px 0px 16px 0px;
+    letter-spacing: -0.08px;
+    color: #808080;
+}
+
+.input-submit {
+    font: 500 16px/100% "GolosR", "comic sans ms";
+    width: 100%;
+    padding: 15px;
+    border-width: 0;
+    border-radius: 10px;
+    background-color: #222222;
+    color: #FFFFFF;
+    margin-top: 32px;
+}

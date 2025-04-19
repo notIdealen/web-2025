@@ -1,0 +1,10 @@
+{
+    "qwerty@mail.ru" : {
+        "user_id" : 1,
+        "password" : "asdf"
+    },
+    "akasha@doka2.com" : {
+        "user_id" : 2,
+        "password" : "doka2"
+    }
+}

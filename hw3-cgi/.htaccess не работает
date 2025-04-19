@@ -1,0 +1,7 @@
+ScriptAlias /cgi-bin/ "d:_WEB/web-2025/localhost/cgi-bin/"
+<Directory "d:_WEB/web-2025/localhost/cgi-bin/">
+  Options +Indexes
+  Options +ExecCGI
+  AddHandler cgi-script .cgi
+</Directory>
+
