@@ -1,0 +1,53 @@
+.main-container {
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+}
+
+.viewport-container {
+    display: flex;
+    width: 912px;
+    height: 501px;
+    background-color: #5b9556;
+    /* align-items: flex-start;     */
+    justify-content: space-between;
+}
+
+.viewport-container__title {
+    font: 700 140px/180px "GolosR", "comic sans ms";
+    color: #222222;
+    letter-spacing: -1.5px;
+}
+
+.deltest1 {
+    background-color: #eb57f3;
+    width: 100px;
+    height: 300px;
+}
+.deltest2 {
+    background-color: #57f3cc;
+    width: 343px;
+    height: 251px;
+}
+
+
+
+
+
+
+
+.viewport-container__image {
+    max-width: 15%;
+    /* display: inline; */
+}
+
+
+.form {
+    display: inline-block;
+    width: 343px;
+    height: 251px;
+    background-color: #8098e0;
+}

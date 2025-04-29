@@ -1,7 +1,7 @@
 <body>  
   <div class="viewport-container">
     <h1 class="title">Войти</h1>
-    <img class="image" src="../images/icons/login.jpg" alt="">
+    <img class="image" src="image/icon/login.jpg" alt="">
     <form class="form" method="GET" action="home">
       <label class="label" for="email">Электропочта</label>
       <input class="input input-error" type="email" id="email">

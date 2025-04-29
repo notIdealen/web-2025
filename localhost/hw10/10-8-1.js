@@ -1,0 +1,1 @@
+console.log([2, 5, 8, 10, 3].map(i => i * 3).filter(i => i > 10));

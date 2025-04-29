@@ -10,11 +10,11 @@
     <a href="profile<?= "?user_id=" . $_GET['user_id']; ?>">Profile</a>
     <form action="./api.php" enctype="multipart/form-data" method="post"> 
         <p>
-            <input type="text" name="user_id" value="<?= $_GET['user_id']; ?>" readonly>
+            <input type="text" name="user_id" value="<?= $_GET['user_id']; ?>" required>
         </p>
         <p> 
             <!-- <input type="hidden" name="MAX_FILE_SIZE" value="30000" />    -->
-            <input type="file" name="img" accept="image/*"/>
+            <input type="file" name="img" accept="image/*" required>
         </p>
         <p>
             <textarea name="content"></textarea> 
