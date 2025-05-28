@@ -1,0 +1,8 @@
+.header {
+    position: fixed;
+    font: 700 14px/18px "GolosR", "comic sans ms";
+    height: 73px; 
+    width: 100%;
+    bottom: 0;
+    z-index: 5;
+}

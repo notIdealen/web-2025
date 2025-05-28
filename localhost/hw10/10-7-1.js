@@ -1,24 +1,30 @@
 function createPassword(n) {
     const p = document.createElement('p');
     p.style.fontSize = 24;
-    let rand;
-    let upper = lower = sym = digit = true;
-    for (let index = 0; index < n; index++) {
-        do
-        {
-            rand = String.fromCharCode(Math.floor(Math.random() * 1000 / 4 + 33));
-            if (rand.search(/[A-ZА-Я]/) === 0 && upper) upper = false; else 
-            if (rand.search(/[a-zа-я]/) === 0 && lower) lower = false; else
-            if (rand.search(/[!@#$%&()]/) === 0 && sym) sym = false; else 
-            if (rand.search(/\d/) === 0 && digit) digit = false;
-            else rand = -1;
-            
-            if (!upper && !lower && !sym && !digit) upper = lower = sym = digit = true; 
+    if (n < 4) {
+        p.textContent = `Вы ввели ${n}. Длина пародя должна быть минимум 4 символа`; 
+    } else {
+        const upperKit = "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЭЮЯABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        const lowerKit = "абвгдеёжзийклмнопрстуфхцчшщъыьэюяabcdefghijklmnopqrstuvwxyz";
+        const symbolKit = "!@#$%&()";
+        const digitKit = "0123456789";
+        let kitArr = [];
+        let rand, kit, symbol;
+        for (let index = 0; index < n; index++) {
+            if (!kitArr.length) {
+                kitArr.push(upperKit);
+                kitArr.push(lowerKit);
+                kitArr.push(symbolKit);
+                kitArr.push(digitKit);
+            }
+            rand = Math.floor(Math.random() * 1000) % kitArr.length;
+            kit = kitArr[rand];
+            symbol = kit[Math.floor(Math.random() * kit.length)];
+            p.textContent = p.textContent + symbol;
+            kitArr.splice(rand, 1);
         }
-        while (rand === -1);
-        p.textContent = p.textContent + rand;
     }
     document.body.append(p);
 }
 
-createPassword(10);
+createPassword(20);

@@ -1,0 +1,68 @@
+.content-container__image-container {/*контейнер в который встраивается карусель*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 474px;
+    position: relative;
+}
+
+.content-container__image-counter {/*счетчик изображений*/
+    font: 400 15px/18px "GolosR", "comic sans ms";
+    color: #ffffff;
+    letter-spacing: -0.15px;
+    position: absolute;
+    right: 16px;
+    top: 20px;
+    background-color:rgba(34, 34, 34, 0.5);
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+/*ниже css для карусели*/
+.carousel-container {/*карусель контейнер*/
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.post-scroll-button { /*кнопки карусели*/
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin: 0 16px 0 16px;
+    background-color: rgba(255, 255, 255, 0.6);
+    background-repeat: no-repeat;
+    background-position: center;
+    backdrop-filter: blur(13px);
+}
+
+.show-prev-image-button {
+    background-image: url(../image/Arrow_left_10.png);
+}
+
+.show-next-image-button {
+    background-image: url(../image/Arrow_right_10.png);
+}
+/*css длякарусели закончился*/
+
+/*ниже css для контейнера с изображениями и изображения*/
+.content-container__images {/*контейнер изображений*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.content-container__image {/*изображения*/
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your PROFILE</title>
+    <link rel="stylesheet" href="common.css"  type="text/css">
+    <link rel="stylesheet" href="header.css"  type="text/css">
+    <link rel="stylesheet" href="menu.css"    type="text/css">
+    <link rel="stylesheet" href="profile_flex.css" type="text/css">
+</head>
+<body>
+    <div class="main-container">
+        <!-- хеддер -->
+        <div class="header"></div>
+        <!-- меню -->
+        <ul class="menu">
+            <li class="menu__menu-cell menu__icon-home">
+                <a href=""></a>
+            </li>
+            <li class="menu__menu-cell menu__icon-user">
+                <a href=""></a>
+            </li>
+            <li class="menu__menu-cell menu__icon-add"> 
+                <a href=""></a>
+            </li>
+        </ul>
+        <div class="viewport-container">
+            <div class="profile__header-container">
+                <div class="profile__avatar-container">
+                    <!-- <img class="profile__avatar" src=<?= $user['image_path'] ?? './image/icon/empty_ava.jpg'; ?> alt="">  -->
+                    <img class="profile__avatar" src="../../image/user/2_alexandra_serova/post_4.jpg" alt=""> 
+                </div>
+                <!-- <p class="profile__nickname"><?= "$user[name] $user[lastname]" ?></p> -->
+                <p class="profile__nickname">Afvbkbz Bvz</p>
+                <!-- <p class="profile__about"><?= $user['quote'] ?></p> -->
+                <p class="profile__about">Somethink about human</p>
+                <div class="profile__post-counter-container">
+                    <a href="home?user_id=<?= $user['id']; ?>">
+                        <!-- <img class="profile__icon-post-counter" src="./image/icon/posts_icon.png" alt=""> -->
+                        <img class="profile__icon-post-counter" src="../../image/icon/posts_icon.png" alt="">
+                        <!-- <span class="profile__total-posts"><?= ($totalPosts > 1) ? "$totalPosts posts" : "$totalPosts post"; ?></span> -->
+                        <span class="profile__total-posts">23 поста</span>
+                    </a>
+                </div>
+            </div>
+            <div class="profile__content-container">
+                <div class="profile__image-container">
+                    <img class="profile__image" src="../../image/user/2_alexandra_serova/post_4.jpg" alt="">
+                </div>
+                <div class="profile__image-container">
+                    <img class="profile__image" src="../../image/user/2_alexandra_serova/2as_post_454009-2025-04-20.jpg" alt="">
+                </div>
+                <div class="profile__image-container">
+                    <img class="profile__image" src="../../image/user/1_vanya_denisov/post_5.jpg" alt="">
+                </div>
+                <div class="profile__image-container">
+                    <img class="profile__image" src="../../image/user/1_vanya_denisov/post_2.jpg" alt="">
+                </div>
+            </div>
+            <!-- <div class="profile__content-container">
+                <?php 
+                foreach ($posts as $post) { ?>
+                    <div class="profile__image-container">
+                        <img class="profile__image" src=<?= $post['image_path'] ?> alt="">
+                    </div>
+                <?php } 
+                ?>
+            </div> -->
+
+        </div>
+    </div>
+</body>
+</html>

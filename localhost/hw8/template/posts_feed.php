@@ -2,7 +2,7 @@
 <div class="content-container">
     <div class="contentmaker-container">
         <div class="ava-container">
-            <img class="ava" src=<?= $user['image_path'] ?: "image/icon/empty_ava.jpg"; ?> alt="">
+            <img class="ava" src=<?= $user['image_path'] ?? "image/icon/empty_ava.jpg"; ?> alt="">
         </div>
         <span class="nickname"> 
             <a href="profile?user_id=<?= $post['created_by'] ?>">

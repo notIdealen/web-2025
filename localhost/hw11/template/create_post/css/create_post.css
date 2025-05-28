@@ -1,0 +1,229 @@
+body { 
+    padding: 0 calc(20px - (100vw - 100%)) 0 0; 
+}
+
+.main-container {
+    display: flex;
+    width: 100%;    
+    min-height: 100vh;
+    position: relative;
+
+}
+
+.viewport-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.content-feed {
+    margin: 0 auto;
+    width: 474px;
+    padding-top: 73px;
+    height: 100vh;
+}
+
+.content-container {
+    width: 100%;
+    height: 100%;
+}
+
+.create-post-form {
+    position: relative;
+    height: 100%;
+}
+
+.content-container__image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 474px;
+    position: relative;
+    background-color: rgba(242, 243, 245);
+    margin-bottom: 20px;
+}
+
+.content-container__def-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.content-container__image-counter {
+    font: 400 15px/18px "GolosR", "comic sans ms";
+    color: #ffffff;
+    letter-spacing: -0.15px;
+    position: absolute;
+    right: 16px;
+    top: 20px;
+    background-color:rgba(34, 34, 34, 0.5);
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+
+.carousel-container {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.post-scroll-button {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin: 0 16px 0 16px;
+    background-color: rgba(255, 255, 255, 0.6);
+    background-repeat: no-repeat;
+    background-position: center;
+    backdrop-filter: blur(13px);
+}
+
+.show-prev-image-button {
+    background-image: url(../../../image/icon/Arrow_left_button_icon.png);
+}
+
+.show-next-image-button {
+    background-image: url(../../../image/icon/Arrow_right_button_icon.png);
+}
+
+.content-container__add-image-icon {
+    width: 81px;
+    margin-bottom: 12px;
+}
+
+.content-container__add-more-image-button {
+    display: flex;
+    align-items: center;
+    font: 400 15px/18px "GolosR", "comic sans ms";
+    letter-spacing: -0.15px;
+    padding: 6px 0;
+    margin-bottom: 16px;
+}
+
+.create-post-form__select-image-label {
+	position: relative;
+	display: inline-block;
+    cursor: pointer;
+	outline: none;
+	text-decoration: none;
+	vertical-align: middle;
+	text-align: center;
+    font: 500 16px/18px "GolosR", "comic sans ms";
+    color: #ffffff;
+    letter-spacing:0;
+    padding: 14.5px 16px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 10px;
+}
+
+.create-post-form__select-image-input {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	display: block;
+	width: 0;
+	height: 0;
+}
+
+.content-container__images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.content-container__image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.create-post-form__full-cage-container {
+    background-color: rgb(229, 255, 217);
+    /* padding: 12px; */
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 6px;
+}
+
+.create-post-form__full-cage-text {
+    font: 400 15px/18px "GolosR", "comic sans ms";
+    letter-spacing: -0.15px;
+    color: rgb(34, 34, 34);
+    background-color: rgb(229, 255, 217);
+    margin: 12px;
+}
+
+.create-post-form__select-more-image-label {
+    cursor: pointer;
+	outline: none;
+    display: flex;
+    align-items: center;
+    font: 400 15px/18px "GolosR", "comic sans ms";
+    letter-spacing: -0.15px;
+    padding: 6px 0;
+    margin-bottom: 16px;
+    color: rgb(63, 138, 224);
+}
+
+.content-container__add_image-image {
+    margin-right: 4px;
+}
+
+.create-post-form__select-more-image-input {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	display: block;
+	width: 0;
+	height: 0;
+}
+
+.create-post-form__text-content {
+    font: 400 15px/18px "GolosR", "comic sans ms";
+    letter-spacing: -0.15px;
+    color: rgb(34, 34, 34);
+    width: 100%;
+    resize: none;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.create-post-form__text-content:focus {
+    outline-style: none;
+    color: rgb(34, 34, 34);
+}
+
+.create-post-form__submit-button-container {
+    width: 100%;
+    height: 47px;
+    position: relative;
+}
+
+.create-post-form__submit-button {
+    font: 400 16px/18px "GolosR", "comic sans ms";
+    letter-spacing: 0;
+    color: rgb(255, 255, 255);
+    padding: 14.5px 26px;
+    border-radius: 10px;
+    background-color: rgb(34, 34, 34);
+    position: absolute;
+    bottom: 0;
+}
+
+.button_disabled {
+    background-color: rgb(180, 180, 180);
+}
+
+
+

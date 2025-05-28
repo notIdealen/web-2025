@@ -1,0 +1,103 @@
+.main-container {
+    display: flex;
+    width: 100%;    
+    min-height: 100vh;
+    position: relative;
+    /* background-color: #42e75e; */
+}
+
+.viewport-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* background-color: #e74276; */
+}
+
+.profile__header-container {
+    /* display: flex;
+    flex-direction: column; */
+    /* background-color: #e7a842; */
+    height: 402px;
+    text-align: center;
+}
+
+.profile__avatar-container {
+    margin: 97px auto 0 auto;
+    width: 123px;
+    height: 123px;
+    border-radius: 16px;
+    background-color: darkolivegreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.profile__avatar {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.profile__nickname {
+    text-align: center;
+    margin: 20px auto 10px auto;
+    font: 600 32px/32px "GolosR", "comic sans ms";
+    color: #222222;
+    letter-spacing: -0.25px;
+}
+
+.profile__about {
+    font: 400 15px/18px "GolosR", "comic sans ms";
+    color: #222222;
+    letter-spacing: -0.15px;
+    margin: 0 auto;
+    max-width: 361px;
+    text-align: center;
+}
+
+.profile__post-counter-container {
+    display: inline-flex;
+    margin: 14px auto 42px auto;
+    background-color: #F2F3F5;
+    padding: 7px 10px;
+    border-radius: 6px;
+}
+
+.profile__icon-post-counter {
+    margin-right: 6px;
+    height: 16px;
+    width: 16px;
+    vertical-align: text-bottom;
+}
+
+.profile__total-posts {
+    font: 400 15px/18px "GolosR", "comic sans ms";
+    color: #222222;
+    letter-spacing: -0.15px;
+    background-color: #F2F3F5;
+}
+    
+.profile__content-container {
+    margin: 0 auto;
+    /* background-color: #42a2e7; */
+    width: 972px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.profile__image-container {
+    margin: 1px;
+    /* background-color: #4a2bd1; */
+    border-radius: 2px;
+    width: 322px;
+    height: 322px;
+}
+
+.profile__image {
+    border-radius: 2px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}

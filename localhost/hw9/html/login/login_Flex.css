@@ -1,0 +1,103 @@
+/* * {
+    border: 1px solid black;
+} */
+
+.main-container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #808080;
+}
+
+.viewport-container {
+    display: flex;
+    align-items: center;
+    width: 912px;
+    left: 5px;
+    /* background-color: #5b9556; */
+    justify-content: space-between;
+    position: relative;
+}
+
+.viewport-container__title {
+    display: block;
+    font: 700 140px/180px "GolosR", "comic sans ms";
+    color: #222222;
+    letter-spacing: -1.5px;
+    position: absolute;
+    top: -106px;
+    left: -90px;
+    background-color: transparent;
+} 
+
+.viewport-container__image-container {
+    display: flex;
+    height: 501px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.viewport-container__image {
+    width: 462px;
+}
+
+.form {
+    /* background-color: #de71e2; */
+    width: 343px;
+    height: 251px;
+    position: relative;
+}
+
+.form__label-error {
+    background-color: #7571e2;
+    width:100%;
+    position: absolute;
+    top: -50px;
+}
+
+/* .label-error {
+    display: none;
+} */
+
+.form__label {
+    display: block;
+    font: 400 15px/18px "GolosR", "comic sans ms";
+    letter-spacing: -0.15px;
+    color: #222222;
+    margin-bottom: 5px;
+}
+
+.form__input {
+    display: block;
+    width: 100%;
+    font: 400 15px/18px "GolosR", "comic sans ms";
+    padding: 13px 12px;
+    outline: none;
+    border-width: 0px;
+    border-radius: 10px;
+    background-color: #F2F3F5;
+}
+
+.form__info {
+    display: block;
+    font: 400 13px/16px "GolosR", "comic sans ms";
+    margin: 5px 0px 16px 0px;
+    letter-spacing: -0.08px;
+    color: #808080;
+}
+
+.form__button-submit {
+    font: 500 16px/100% "GolosR", "comic sans ms";
+    width: 100%;
+    padding: 15px;
+    border-width: 0;
+    border-radius: 10px;
+    background-color: #222222;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 0px;
+}

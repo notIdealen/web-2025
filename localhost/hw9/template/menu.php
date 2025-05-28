@@ -1,5 +1,11 @@
-<div class="nav-panel">
-    <div class="nav-menu-cell home-icon"></div>
-    <div class="nav-menu-cell user-icon"></div>
-    <div class="nav-menu-cell add-icon"></div>
-</div>
+<ul class="menu">
+    <li class="menu__menu-cell menu__icon-home">
+        <a href=""></a>
+    </li>
+    <li class="menu__menu-cell menu__icon-user">
+        <a href=""></a>
+    </li>
+    <li class="menu__menu-cell menu__icon-add"> 
+        <a href=""></a>
+    </li>
+</ul>

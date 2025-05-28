@@ -1,1 +1,18 @@
 <h1>YYEYES! HTML</h1>
+<div class="div" id="div1">12</div>
+<input type="file" name="" id="ifile" onchange="readFile(this)">
+<img src="" alt="" id="img">
+<script>
+    function readFile(inp) {
+    let f = inp.files[0];
+
+    let reader = new FileReader();
+    reader.readAsDataURL(f);
+    reader.onload = function() {
+        console.log(reader.result);
+        img.src = reader.result;
+    };
+}
+div1.classList.toggle('lock');
+div1.classList.toggle = 'rew';
+</script>

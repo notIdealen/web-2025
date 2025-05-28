@@ -1,0 +1,16 @@
+.content-container__text {
+    position: relative;
+    width: 474px;
+    /* height: 40px; */
+    /* overflow: hidden; */
+    background-color: #dbcb63;
+}
+
+/* .content-container__tripple-dot {
+    text-align: center;
+    width: 23px;
+    background-color: #dbcb63;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+} */

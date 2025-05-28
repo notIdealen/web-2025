@@ -1,0 +1,1 @@
+//put window.onload and import all scripts

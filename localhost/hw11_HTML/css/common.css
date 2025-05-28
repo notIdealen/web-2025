@@ -1,0 +1,11 @@
+@font-face {
+	font-family: "GolosR"; 
+	src: url("../fonts/golos-ui_regular.woff2") format("woff2");
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    background-color:#FFFFFF;
+    border-style: none;
+}

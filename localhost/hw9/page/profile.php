@@ -15,20 +15,19 @@
     } else {
         echo '<script> document.location.href="home" </script>';
     }
-    require_once __DIR__ . '/../template/head/head.php';
-    require_once __DIR__ . '/../template/head/head-profile/head-profile.php';
+    require_once __DIR__ . '/../template/head.php';
+    require_once __DIR__ . '/../template/profile/profile_head.php';
 ?>
 <body>
     <div class="main-container">
         <?php 
-            require_once __DIR__ . '/../template/menu.php';
             require_once __DIR__ . '/../template/header.php'; 
+            require_once __DIR__ . '/../template/menu.php';
         ?>
-        <a href="create?user_id=<?= $user['id'] ?>">Create_post</a>
         <div class="viewport-container">
             <?php
-                require_once __DIR__ . "/../template/user_profile.php";    
-            ?>
+                require_once __DIR__ . "/../template/profile/profile_body.php";    
+                ?>
         </div>
     </div>
 </body>

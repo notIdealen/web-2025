@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not your HOME</title>
+    <link rel="stylesheet" href="common.css" type="text/css">
+    <link rel="stylesheet" href="home_flex.css" type="text/css">
+    <link rel="stylesheet" href="header.css" type="text/css">
+    <link rel="stylesheet" href="menu.css" type="text/css">
+</head>
+<body>
+    <div class="main-container">
+        <!-- хеддер -->
+        <div class="header"></div>
+        <!-- меню -->
+        <ul class="menu">
+            <li class="menu__menu-cell menu__icon-home">
+                <a href=""></a>
+            </li>
+            <li class="menu__menu-cell menu__icon-user">
+                <a href=""></a>
+            </li>
+            <li class="menu__menu-cell menu__icon-add"> 
+                <a href=""></a>
+            </li>
+        </ul>
+        <div class="viewport-container">
+            <div class="content-feed">
+                <div class="content-container">
+                    <div class="content-container__header-container">
+                        <div class="content-container__avatar-container">
+                            <!-- <img class="content-container__avatar" src=<?= $user['image_path'] ?: "image/icon/empty_ava.jpg"; ?> alt=""> -->
+                            <img class="content-container__avatar" src="../../image/user/1_vanya_denisov/post_5.jpg" alt="">
+                        </div>
+                        <span class="content-container__nickname">Фамилия Имя 
+                            <!-- <a href="profile?user_id=<?= $post['created_by'] ?>">
+                                <?= "$user[name] $user[lastname]"; ?>
+                            </a>  -->
+                        </span>
+                        <img class="content-container__icon-edit" src="./image/icon/edit_icon.png" alt="">
+                        <div class="test-edit-icon">del</div>
+                    </div>
+                    <div class="content-container__foto-container">
+                        <!-- <img class="foto-post" src=<?= $post['image_path'] ?> alt=""  width="400px"> -->
+                        <img class="content-container__foto" src="../../image/user/1_vanya_denisov/post_5.jpg" alt="">
+                    </div>
+                    <div class="content-container__reaction-container">
+                        <span class="content-container__heart">❤️</span>
+                        <span class="content-container__like-counter">298</span>
+                        <!-- <span class="content-container__like-value">❤️<?= $post['like_counter']; ?></span> -->
+                    </div>
+                    <!--<p class="text"><?= $post['content']; ?></p>
+                    <p class="date-text"><?= $date; ?></p>  -->
+                    <p class="content-container__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat atque vel asperiores modi quasi eveniet corporis laudantium ratione saepe cumque porro tempore perferendis nemo blanditiis, et, iste totam error. Nostrum.</p>
+                    <p class="content-container__date">26 feb 2001</p> 
+                </div>
+                <div class="content-container"></div> 
+                <div class="content-container"></div> 
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

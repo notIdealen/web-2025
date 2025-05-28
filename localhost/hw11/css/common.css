@@ -1,0 +1,19 @@
+@font-face {
+	font-family: "GolosR"; 
+	src: url("../fonts/golos-ui_regular.woff2") format("woff2");
+}
+
+a {
+    color: #222222; /* Цвет ссылок становится таким же, как цвет родительского элемента */
+    text-decoration: none; /* Убираем подчёркивание */
+    background-color: transparent; /* Фон прозрачный, чтобы не выделяться */
+    cursor: pointer; /* Оставляем указатель, чтобы было понятно, что ссылка кликабельна */
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    background-color:#FFFFFF;
+    border-style: none;
+    padding: 0;
+}

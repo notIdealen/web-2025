@@ -1,11 +1,14 @@
-.nav-panel {
+.menu {
     display: inline-block;
+    position: fixed;
+    height: 100vh;
+    list-style-type: none;
     padding: 24px 0;
     border-width: 0;
-    border-right: 1px rgba(35, 35, 35, 0.05) solid;
+    border-right: 1px rgba(34, 34, 34, 0.05) solid;
 }
 
-.nav-menu-cell {
+.menu__menu-cell {
     background-repeat: no-repeat;
     background-position: center center;
     width: 40px;
@@ -13,14 +16,14 @@
     margin: 16px;
 }
 
-.home-icon {
+.menu__icon-home {
     background-image: url("../image/icon/home_icon.png");
 }
 
-.user-icon {
+.menu__icon-user {
     background-image: url("../image/icon/user_icon.png");
 }
 
-.add-icon {
+.menu__icon-add {
     background-image: url("../image/icon/add_icon.png");
 }
